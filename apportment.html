@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apportment</title>
+     <link rel="shortcut icon" href="academie.jpg">
+</head>
+<body>
+    <header>
+            <h1>
+                
+                       <p>CENTRE HOSPITALIER POWER ACADEMIE</p>
+            </h1>
+        <nav>
+                     
+             <a href="index.html" title="index">Acceuil</a> |
+                <a href="doctor.html" title="doctor">Docteur</a> |
+                <a href="services.html" title="services">Services</a> |
+                <a href="apportment.html" title="apportment">Rendez-vous</a> |
+                <a href="media.html" title="media">Media</a> |
+                <a href="contact.html" title="contact">Contact</a> |
+                <a href="about.html" title="about">A propos</a>
+                <hr>
+                <br>
+
+                       
+           <br>
+
+                     <search>
+                            <form>
+                                <label for="recherche"></label><br>
+                                     <input type="search" id="recherche" placeholder="tapez vos recherches...."/>
+                                        <button type="submit">Recherche</button>
+
+                                        <span>connectez votre email:</span>
+                                        <input type="email" id="email" placeholder="entrer votre email..."/>
+                                        <input type="password" placeholder="saisi votre mot de passe ...">
+                                        <button>connecter</button>
+                                         
+                            </form>
+                     </search>
+
+        
+        </nav>
+
+    </header>
+    <br>
+    <form>
+        <fieldset>
+        <!--seksyon pouw chwazi pou ki moun-->
+            <h2>
+                <p><u>Pour qui voulez-vous prendre ce rendez-vous :</u></p>
+            </h2>
+        <input type="radio" id="moi"name="pour_qui"value="moi">
+        <label for="moi">Mo:</label>
+
+
+        <input type="radio" id="proche"name="pour_qui"value="proche">
+        <label for="proche">un proche:</label>
+
+
+        <input type="radio" id="enfant"name="pour_qui"value="enfant">
+        <label for="enfant">un enfant:</label>
+`                 
+        <br><br>
+
+        <!--kek lot detay senp pou lopital la-->
+        
+        <label>Nom du patient :</label>
+        <input type=" text"name="nom">
+
+        <br><br>
+
+        <label>Date :</label>
+        <input type="date" name="date">
+
+        <br><br>
+
+        <input type="submit" value="prendre rendez-vous">
+       </form>  
+    
+</fieldset>
+
+ <form>
+                <p>vos questions nous seront tres utiles</p>
+                 <textarea name="commentaire" placeholder="vos commentaires" rows="5" cols="33" required></textarea><br>
+                <button name="Envoyercommentaire" type="submit">Envoyer</button>
+        </form> 
+       
+    <br><br>
+<button>
+    <a href="services.html" class="previous">&laquo; Precedente</a>
+</button>
+<button>
+<a href="media.html" class="next">Suivante &raquo;</a>
+</button>
+</body>
+</html>
